@@ -32,7 +32,7 @@ export default function Login() {
             title="Đăng nhập"
             subtitle="Chào mừng trở lại - tiếp tục tìm phòng phù hợp cho bạn."
             error={error}
-        visual={
+            visual={
                 <AuthVisual
                     eyebrow="Thuê trọ dành cho sinh viên"
                     heading={

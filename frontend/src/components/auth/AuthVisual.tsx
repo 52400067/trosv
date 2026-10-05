@@ -3,6 +3,9 @@
  * eyebrow tag, heading (dùng <em> để highlight từ khoá bằng lime),
  * đoạn giới thiệu, các auth-point (icon badge lime + mô tả) và dải số liệu
  * .auth-visual-stats (đếm phẳng từ props.stats).
+ *
+ * Kích thước ở đây (cỡ chữ, khoảng đệm) đều nhân với --av-scale trong
+ * auth.css, nên màn hình cao sẽ phóng khối nội dung lên cho kín pane.
  */
 export default function AuthVisual({
   eyebrow,
@@ -23,7 +26,7 @@ export default function AuthVisual({
             {eyebrow && (
                 <div className="auth-visual-eyebrow">{eyebrow}</div>
             )}
-            <h2 className="mb-3">{heading}</h2>
+            <h2>{heading}</h2>
             <p className="auth-visual-blurb">{blurb}</p>
             <div className="d-flex flex-column gap-2">
                 {points.map(([icon, text]: [string, string]) => (

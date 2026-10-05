@@ -70,6 +70,7 @@ export default function Register() {
                     points={[
                         ["mortarboard", "Sinh viên: lưu phòng, tìm bạn ở cùng, hỏi AI"],
                         ["house-add", "Chủ trọ: đăng tin, quản lý trạng thái, nhận tin nhắn"],
+                        ["map", "Bản đồ phòng trọ, lọc theo trường, giá và tiện ích"],
                     ]}
                     stats={[
                         ["168", "Phường ở TP.HCM"],
